@@ -1,0 +1,6 @@
+,test_accuracy,test_precision,test_recall,test_f1-score,test_roc_auc,best_params
+decision_tree,0.7733499377334994,0.4509090909090909,0.8,0.5767441860465117,0.8581939466348067,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 10}"
+random_forest,0.9227895392278954,0.926605504587156,0.6516129032258065,0.7651515151515151,0.9703205894066109,"{'randomforestclassifier__max_depth': None, 'randomforestclassifier__min_samples_leaf': 1, 'randomforestclassifier__n_estimators': 200}"
+adaboost,0.7359900373599004,0.3948339483394834,0.6903225806451613,0.5023474178403756,0.8072829549980087,"{'adaboostclassifier__learning_rate': 1.0, 'adaboostclassifier__n_estimators': 300}"
+gradient_boosting,0.9066002490660025,0.8571428571428571,0.6193548387096774,0.7191011235955056,0.9218040621266429,"{'gradientboostingclassifier__learning_rate': 0.1, 'gradientboostingclassifier__max_depth': 4, 'gradientboostingclassifier__n_estimators': 250}"
+xgboost,0.912826899128269,0.7639751552795031,0.7935483870967742,0.7784810126582279,0.9407407407407408,"{'xgbclassifier__colsample_bylevel': 1.0, 'xgbclassifier__colsample_bytree': 0.8, 'xgbclassifier__learning_rate': 0.1, 'xgbclassifier__max_depth': 5, 'xgbclassifier__n_estimators': 300, 'xgbclassifier__reg_lambda': 1.0}"
